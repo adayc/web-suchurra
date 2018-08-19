@@ -4,11 +4,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Handlee', cursive;
+  font-size: 16pt;
+}
+/*
+font-family: 'Handlee', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+.bg-yellow{
+  background-color: #FFCC00 !important ;
 }
 
 
-
+/*
 .flex{
   display: flex;
   justify-content: center;
@@ -21,9 +31,7 @@
 
 }
 
-.marine{
-  color: #17A589 !important ;
-}
+
 
 .padding{
   padding: 1vh;
@@ -67,16 +75,7 @@ a.text-white:hover{
  
 }
 
-.zoom:hover{
-  
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-box-shadow: 6px 10px 41px 5px rgba(0,0,0,0.33);
--moz-box-shadow: 6px 10px 41px 5px rgba(0,0,0,0.33);
-box-shadow: 6px 10px 41px 5px rgba(0,0,0,0.33);
-margin-top: 1vh;
- }
+
 
  .btn-marine {
  color: #17A589 !important ;
@@ -93,425 +92,28 @@ font-size: 1.5rem;
   background-color: #17A589 !important ;
   
  }
-@media screen and (min-width: 768px) {
-  .flex{
-    
-    justify-content: flex-end;
-  
-  }
-  .flex-section{
-    display: flex;
-    justify-content: center;
-  
-  }
-  .text-section{
-    font-size: 2.5rem;
-  }
+ */
+
+/**************carrusel**************/
+ .container--head {
+  background: #BF3E11;
 }
 
-/* 
-
- 
-a.text-black{
-color:#000 !important;
+.tooltip-carousel {
+  position: absolute;
+  z-index: 11;
+  border-radius: 50%;
 }
 
-a.text-black:hover{
-  text-decoration:underline !important;
-  color: red;
+.caraousel-tooltip-item {
+  display: none;
 }
 
-/*
-body{
-/*  background-color:#F7484E;
+.caraousel-tooltip-item.active {
+  display: block;
 }
-
-.bg-white{
-  background-color:white;
-}
-.border-radius{
-  border: 2px solid #F46E5B;
- margin-bottom:2rem;
-
-  border-radius: 50px 20px;
-}
-.margin-top{
-  margin-top: 12vh;
-}
-
-.padding-top{
-  padding-top:0vh;
-}
-
-.padding-bottom{
-  padding-bottom:4vh;
-}
-
-.text-josefin{
-  font-family: 'Josefin Slab', serif;
-  font-weight: bold;
-}
-
-
-.saturate{
-  width: 6rem;
-  height: 4rem;
-  margin:1vh;
-}
-
-.saturate:hover {filter: opacity(.5);}
-
-
-
-.logo-ada{
-  height: 4.5rem;
-}
-
-.fondo-grey{
-  background-color: #292929;
-}
-
-
-
-
-
-
-
-
-
-
-/*---------------------imagen perfil---------------------*/
-/*.profile:hover{
-  
-
-  -webkit-transform: rotateY(180deg);
-  -webkit-transform-style: preserve-3d;
-  transform: rotateY(180deg);
-  transform-style: preserve-3d;}
-
-
- 
-
-/*------------------------------------------
-
-.text-paris{
-  font-family: 'Parisienne', cursive;
-  
- 
-}
-
-.text-rancho{
-  font-family: 'Rancho', cursive;
-}
-
-.text-bad{
-  font-family: 'Bad Script', cursive;
-}
-
-
-.name{
-  font-size: 5.5rem;
-  text-decoration:underline;
-}
-
-
-
-
-.list-menu li{
-  display: inline;
-  font-size:1.5rem;
-  font-weight: bold;
-}
-
-
-.socials{
- width: 5rem;
-}
-
-
-
-
-.big-title{
-  
-  
-  font-size: 6rem;
-}
-
-/*
-.line{
-  outline: solid 1px green;
-}
-
-
-a.text-white:hover{
-  color: white;
-  text-decoration: underline;
-}
-
-.text-link{
-  font-size:1.6rem;
-}
-
-
-
-.text-black{
-color: black;
-}
-
-.text-gray{
-  color: #6B6161;
-}
-a.text-gray{
-  color: #6B6161;
-}
-
-a.text-gray:hover{
-  text-decoration: underline;
-}
-
-.bg-red{
-  background-color:#F7484E;
-}
-
-.bg-petalos{
-  background-image:url('../assets/images/petalos.png')  ;
-  background-size:100%;
-}
-
-
-
-.borde{
- 
-  /*box-shadow: 5px 5px 5px #F45B97 ; #DAF7A6 
-}
-
-.text-section{
-
- font-size: 2.5rem;
-}
-.img-skill{
-  width:10rem;
-  height:10rem;
-  margin:1rem;
- 
-}
-
-.margin-skill{
-  margin:1rem;
-}
-
-.img-icon{
-  width:5%;
- 
-}
-
-a.mail{
-  padding:1rem;
-  
-  
-  border-radius:20px;
-  border:solid 1px  #6B6161;
-  font-size: 2rem;
-color:#F7484E;
-}
-
-.cv{
-  margin-top:2rem;
-  margin-bottom:2rem;
-}
-
-footer{
-  padding: 1rem;
-}
-
 
 
 @media screen and (min-width: 768px) {
-  .grow:hover
-  {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  }
-
-  .grow-big:hover
-  {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  }
-
-  .img-port{
-    width: 70.8% !important;
-    margin-left:15%;
-  }
-  
-  .img-port2{
-    width: 76% !important;
-    margin-left:12%;
-  }
-
-  .saturate{
-    width: 1rem;
-    height: 5rem;
-    margin:0vh;
-  }
-
 
 }
-
-@media screen and (min-width: 1200px) {
-  .padding-right{
-    padding-right: 11rem !important;
-  }
-}
-
-
-/*************************/
-.bg-transparent{
-  background-color: #ffffff;
-  opacity: 0.65;
-    filter: alpha(opacity=65);
-}
-
-.banner {
-  margin:0px;
-  text-align:center;
-  padding-top:40vh;
-
-  
-
-  font-family:'Roboto';
-  font-size:30px;
-  
-  overflow:hidden;
-  animation:bg 5s linear infinite;
-  background-image:url('../assets/images/fondo.jpg') ;
-  background-size:100% 100%;  
-  background-repeat: no-repeat;
- height:100vh;
-}
-
-.dropping-texts {
-  display: inline-block;
-  width: 180px;
-  text-align: left;
-  height: 30px;
-  vertical-align: -2px;
-}
-
-.dropping-texts > div {
-  font-size:0px;
-  opacity:0;
-  margin-left:-30px;
-  position:absolute;
-  
-  box-shadow: 0px 60px 25px -20px rgba(0,0,0,0.5);
-}
-
-.dropping-texts > div:nth-child(1) {
-  animation: roll 5s linear infinite 0s;
-}
-.dropping-texts > div:nth-child(2) {
-  animation: roll 5s linear infinite 1s;
-}
-.dropping-texts > div:nth-child(3) {
-  animation: roll 5s linear infinite 2s;
-}
-.dropping-texts > div:nth-child(4) {
-  animation: roll2 5s linear infinite 3s;
-}
-
-@keyframes roll {
-  0% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
-    transform: rotate(-25deg);
-  }
-  3% {
-    opacity:1;
-    transform: rotate(0deg);
-  }
-  5% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
-  }
-  20% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
-    transform: rotate(0deg);
-  }
-  27% {
-    font-size:0px;
-    opacity:0.5;
-    margin-left:20px;
-    margin-top:100px;
-  }
-  100% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
-    transform: rotate(15deg);
-  }
-}
-
-@keyframes roll2 {
-  0% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
-    transform: rotate(-25deg);
-  }
-  3% {
-    opacity:1;
-    transform: rotate(0deg);
-  }
-  5% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
-  }
-  30% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
-    transform: rotate(0deg);
-  }
-  37% {
-    font-size:1500px;
-    opacity:0;
-    /*margin-left:-1000px;
-    margin-top:-800px;*/
-  }
-  100% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
-    transform: rotate(15deg);
-  }
-}
-/*
-@keyframes bg {
-  0% {background: #180707;}
-  3% {background: #4a1517;}
-  20% {background: #7b2427;}
-  23% {background: #ac3236;}
-  40% {background: #de4046;}
-  43% {background: #f7484e;}
-  60% {background: #c5393e;}
-  63% {background: #942b2e;}
-  80% {background: #621c1f;}
-  83% {background: #310e0f;}
-  100% {background: #f7484e;}
-}*/
